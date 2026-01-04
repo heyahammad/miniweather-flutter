@@ -11,6 +11,7 @@ class MiniWeatherMain extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Mini Weather',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: const HomePage(),
